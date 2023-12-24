@@ -1,0 +1,123 @@
+::before :after {
+  box-sizing: unset;
+}
+body {
+  background-color: rgba(46, 196, 182, 0.04);
+  color: black;
+  padding-inline: 140px;
+  padding-block: 80px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 14px;
+  
+}
+#individuals {
+  margin-block-start: 124px;
+}
+#logo {
+  width: 77.333px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.header {
+  color: var(--CL-Black, #000b0a);
+  font-family: Brown;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.8px;
+  margin-block-start: 13.6665px;
+}
+.wellness {
+  color: var(--CL-Grey, #737373);
+  font-family: Brown;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  width: 400px;
+}
+#sign-up {
+  background-color: #fff;
+  width: 500px;
+  height: 599px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  padding-inline: 40px;
+  padding-block: 40px;
+  border-color: 2px solid yellow;
+  display: flex;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 24px;
+}
+.label {
+  color: var(--Text-Headings, #011c34);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  width: 159px;
+}
+.box {
+  color: var(--CL-Grey, #737373);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 200px;
+  height: 34px;
+  padding-inline-start: 16px;
+  padding-block: 2px;
+  border-color: grey;
+  margin-block-start: 10px;
+}
+p {
+  margin-block-end: 0px;
+}
+.box2 {
+  width: 492px;
+  height: 42px;
+}
+*/ .icon-arrow {
+  background: url(./assets/icons/u_angle-down.png) no-repeat right;
+  background-size: 24px;
+}
+.icon-date {
+  background: url(./assets/icons/u_a_calendar-alt.png) no-repeat right;
+  background-size: 24px;
+}
+.icon-eye {
+  background: url(./assets/icons/show.png) no-repeat right;
+  background-size: 24px;
+}
+.register {
+  background-color: var(--CL-Green, #2ec4b6);
+  color: white;
+  width: auto;
+  height: 26px;
+  padding-block: 16px;
+  text-align: center;
+}
+#terms {
+  width: 492px;
+  padding-inline-start: 8px;
+}
+.Terms {
+  color: var(--CL-Green, #2ec4b6);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+
